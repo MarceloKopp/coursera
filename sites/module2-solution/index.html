@@ -44,10 +44,45 @@ box-sizing: border-box; {
 	margin: 0;
 	padding: 0;
 }
-
-.onclick
+a:link , a:visited , {
+text-decoration: none;
 background: green;
+display: block;
+width: 250px;
+margin: 5px;
+bottom: 10px;
+text-align: center;
+color: white;
+}
+a:hover {
+	text-decoration-style: dashed;
+	background: black;
+	color: white;
+	font-size: 4em;
+}
+a:active {
+	background: whitesmoke;
+	font-size: 10em;
+}
+div:hover {
+	background: #FFFFF0;
+}
+div:active {
+	color: white;
+	background: #000000;
+	font: 3em;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
 
+p:active {
+	color: greenyellow;
+	background: black;
+	border-style: ridge;
+	border-color: yellow yellow green darkgreen;
+	rotate: 100%;
+
+}
 .row {
 	width: 100%;
 }
@@ -190,6 +225,7 @@ background: green;
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<a href="#">Testing Testing</a>
 <h1>
 Hello World! Why
 </h1>
