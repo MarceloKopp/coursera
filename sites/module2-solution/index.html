@@ -8,7 +8,7 @@ h1 {
 color: darkred;	
 }
 
-p {
+p.onclick:active {
 	border: solid gray 5px;
 	width: 200px;
 	height: 50px;
@@ -75,7 +75,7 @@ div:active {
 	text-align: center;
 }
 
-p:active {
+p:hover {
 	color: greenyellow;
 	background: black;
 	border-style: ridge;
@@ -86,6 +86,8 @@ p:active {
 .row {
 	width: 100%;
 }
+
+/*Large Devices*/
 
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
@@ -131,6 +133,7 @@ p:active {
 		width: 100%;
 	}
 
+/*Medium Devices*/
 
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
@@ -175,6 +178,8 @@ p:active {
 	.col-md-12 {
 		width: 100%;
 	}
+
+/*Small Devices*/
 
 @media (max-width: 767px){
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
@@ -222,7 +227,7 @@ p:active {
 
 </style>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a href="#">Testing Testing</a>
