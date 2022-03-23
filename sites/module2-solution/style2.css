@@ -1,3 +1,4 @@
+
 @media (max-width: 780px) and (min-width:  400px) {
 	body {
 		background: green
@@ -10,6 +11,8 @@
 	}
 
 }
+
+
 h1 {
 color: darkred;	
 }
