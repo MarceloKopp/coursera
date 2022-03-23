@@ -1,17 +1,26 @@
-
-@media (max-width: 780px) and (min-width:  400px) {
-	body {
-		background: green
-	}
+body {
+	background: black;
 }
 
-@media (min-width 1210px) and (max-width: 1220px) {
-	body {
-		background: blueviolet;
-	}
-
+@media (min-width: 601px) and (max-width: 800px) {
+body {
+    background-color: blueviolet;
+    color: white;
+  }
+}
+@media (min-width: 801px) and (max-width: 1500px) {
+body {
+    background-color: greenyellow;
+    color: white;
+  }
 }
 
+@media (min-width: 200px) and (max-width: 600px) {
+body {
+    background-color: olive;
+    color: white;
+  }
+}
 
 h1 {
 color: darkred;	
