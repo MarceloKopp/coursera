@@ -2,6 +2,15 @@ body {
 	background: black;
 }
 
+
+@media (min-width: 200px) and (max-width: 600px) {
+body {
+    background-color: olive;
+    color: white;
+  }
+}
+
+
 @media (min-width: 601px) and (max-width: 800px) {
 body {
     background-color: blueviolet;
@@ -11,13 +20,6 @@ body {
 @media (min-width: 801px) and (max-width: 1500px) {
 body {
     background-color: greenyellow;
-    color: white;
-  }
-}
-
-@media (min-width: 200px) and (max-width: 600px) {
-body {
-    background-color: olive;
     color: white;
   }
 }
