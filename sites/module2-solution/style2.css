@@ -1,3 +1,7 @@
+html {
+background: black
+
+}
 
 h1 {
 color: darkred;	
@@ -7,7 +11,7 @@ p.onclick:active {
 	border: solid gray 5px;
 	width: 200px;
 	height: 50px;
-	background: cornflowerblue;
+	background: black;
 	font-family: Comic Sans MS;
 	overflow: auto;
 	color: white;
