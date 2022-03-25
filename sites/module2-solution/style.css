@@ -26,8 +26,9 @@
 body {
 
 	background: floralwhite url(marcelo.png) center right no-repeat ;
-	color: indianred;
+	color: navajowhite;
 	font-size: 14pt;
+	text-shadow: 1.5px 1.5px 0.5px black;
 }
 
 h1 {
@@ -47,7 +48,7 @@ div {
 
 p {
 	margin-top: 53px;
-	padding: 0px 30px 30px 30px;
+	padding: 10px 30px 30px 30px;
 	text-align: justify;
 	overflow: hidden;
 }
@@ -66,14 +67,17 @@ p.title {
 #chicken {
 	background: steelblue;
 	color: white;
+	text-shadow: 2px 2px 5px black;
 }
 
 #meat {
 	background: orchid;
 	color: black;
+	text-shadow: 2px 2px 5px ghostwhite;
 }
 
 #fish {
 	background: forestgreen;
 	color: white;
+	text-shadow: 2px 2px 5px black;
 }
